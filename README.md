@@ -5,7 +5,8 @@
 # 删除本地的分支
 
 ## 使用场景：开了过多的项目，一定时间需要清除本地分支
-## 执行命令： git branch | grep -v -E 'master|develop' | xargs git branch -d -f
+## 执行命令： 
+'''git branch | grep -v -E 'master|develop' | xargs git branch -d -f'''
 
 + git branch 列出本地所有分支
 + grep -v -E 'master|develop' 搜索排除 master,develop的所有分支
